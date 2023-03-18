@@ -1,0 +1,27 @@
+{
+    "name": "comptechdev/auth",
+    "type": "laravel-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mark Mayalla",
+            "email": "markmayalla@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Auth\\": ""
+        }
+    },
+    "require": {
+        "laravel/ui": "^4.2"
+    }
+}
